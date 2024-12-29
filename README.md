@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this project, I used **Amazon QuickSight**, a scalable and cost-effective cloud-based Business Intelligence (BI) tool, to visualize Netflix data. In this project I created interactive dashboards, visualized data, and generated business insights in real-time.
+In this project, I used **Amazon QuickSight** to visualize Netflix data. In this project I created interactive dashboards, visualized data, and generated business insights in real-time.
 
 ---
 ![image](https://github.com/user-attachments/assets/ce220e15-ba64-451e-8a14-cd02982a3f3e)
@@ -10,7 +10,7 @@ In this project, I used **Amazon QuickSight**, a scalable and cost-effective clo
 
 ## What is Amazon QuickSight?
 
-**Amazon QuickSight** is a fully managed BI service that enables users to:
+**Amazon QuickSight** is a fully managed, scalable and cost-effective cloud-based Business Intelligence (BI) service that enables users to:
 - Build interactive dashboards.
 - Gain actionable insights from data.
 - Scale seamlessly with enterprise-level capabilities.
