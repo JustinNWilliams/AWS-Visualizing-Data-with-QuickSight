@@ -104,12 +104,6 @@ To present the insights, I designed a dashboard with the following steps:
 
 ---
 
-## Time Taken
-
-This project took me approximately **90 minutes** to complete.
-
----
-
 ## Resources
 
 - [Amazon QuickSight Documentation](https://aws.amazon.com/quicksight/)
