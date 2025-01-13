@@ -7,7 +7,7 @@ In this project, I used **Amazon QuickSight** to visualize Netflix data. In this
 ---
 ## What is Amazon QuickSight?
 
-![image](https://github.com/user-attachments/assets/ce220e15-ba64-451e-8a14-cd02982a3f3e)
+![Screenshot 2024-12-29 101509](https://github.com/user-attachments/assets/90777006-4763-4524-ac8e-0edc4dcdca5f)
 
 **Amazon QuickSight** is a fully managed, scalable and cost-effective cloud-based Business Intelligence (BI) service that enables users to:
 - Build interactive dashboards.
@@ -44,14 +44,14 @@ I started by uploading the following files into an **S3 bucket**:
 
 Next, I edited the `manifest.json` file to include the **S3 URI** for the `netflix_titles.csv` file. This step is essential because QuickSight uses the `manifest.json` file to locate and read the dataset.
 
-![Screenshot 2024-12-29 033731](https://github.com/user-attachments/assets/f6aba519-8ec5-4358-a7f4-2d4876051f0b)
+![Screenshot 2024-12-29 033731](https://github.com/user-attachments/assets/0e5c7de6-9272-4ad5-a3ee-602244678cbe)
 
 ---
 
 ### 2. Create a QuickSight Account
 I created a **QuickSight account** using the **30-day free trial**. The account creation process was straightforward and took about **3-5 minutes**.
 
-![Screenshot 2024-12-29 034259](https://github.com/user-attachments/assets/b16c6b74-0b89-41c0-810b-26f880141dfe)
+![Screenshot 2024-12-29 034259](https://github.com/user-attachments/assets/2ea95da1-0a5d-4007-a016-7cb3a64be107)
 
 
 ---
@@ -62,7 +62,7 @@ I created a **QuickSight account** using the **30-day free trial**. The account 
 
 💡 The `manifest.json` file was critical because it provided QuickSight with the location and structure of my dataset.
 
-![Screenshot 2024-12-29 034950](https://github.com/user-attachments/assets/5b7b3246-43a7-44a8-9df8-f7ecc3fecf55)
+![Screenshot 2024-12-29 034950](https://github.com/user-attachments/assets/a7d24c75-a2b6-40c5-affd-1b80b97184c1)
 
 ---
 
@@ -72,7 +72,7 @@ After uploading the dataset, I created my first visualizations. Here’s what I 
   - Dragged `release_year` into the **Y-axis** of a **Donut Chart**.
   - Dragged `release_year` into the **Y-axis** and `type` into the **group/color field** of a **Vertical Bar Graph**.
 
-![Screenshot 2024-12-29 035938](https://github.com/user-attachments/assets/c445d10e-264d-4bba-b7c1-c78a4b17f6ed)
+![Screenshot 2024-12-29 035938](https://github.com/user-attachments/assets/824b9396-4610-45d2-8758-2dd3738b73df)
 
 ---
 
@@ -81,7 +81,7 @@ I used filters to refine the data and focus on specific insights. For instance:
 - I created a filter for `release_year` to display records from **2015 and later**.
 - I visualized genres like **Action & Adventure**, **TV Comedies**, and **Thrillers**.
 
-![Screenshot 2024-12-29 092115](https://github.com/user-attachments/assets/a33aad91-212b-43fb-bb93-afe314ac455c)
+![Screenshot 2024-12-29 092115](https://github.com/user-attachments/assets/bf1cb5b8-4cf9-4c3f-bf93-054fadbfb83d)
 
 
 ---
@@ -92,7 +92,7 @@ To present the insights, I designed a dashboard with the following steps:
 2. Aligned all visualizations for a clean and professional look.
 3. Exported the dashboard as a **PDF** by clicking **Export** in the top-right corner and selecting **Generate PDF**.
 
-![Screenshot 2024-12-29 093524](https://github.com/user-attachments/assets/e8f0af05-5137-4717-ab5c-6414aebd656a)
+![Screenshot 2024-12-29 093524](https://github.com/user-attachments/assets/34f5e6af-8f2b-4042-957c-711a8f0c67f2)
 
 ---
 
